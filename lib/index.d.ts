@@ -4,7 +4,7 @@ interface IProps{
   dataSource: any[];
   parentWidth: number;
   childrenHeight: number;
-  childrenHeights: number[];
+  childrenHeights?: number[];
   childrenWidth: number;
 
   marginChildrenTop?: number;
