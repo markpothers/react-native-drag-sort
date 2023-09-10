@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 interface IProps{
-  containerStyle: Record<string, any>;
+  containerStyle?: Record<string, any>;
   dataSource: any[];
   parentWidth: number;
   childrenHeight: number;
